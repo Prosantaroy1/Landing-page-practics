@@ -81,8 +81,46 @@ a{
     
 }
 /* header banner images*/
-.banner img{
-    width: 100%;
-    height: 100vh;
-    z-index: 2.8;
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner-title{
+    margin-top: 130px;
+    font-size: 45px;
+    font-weight: 800;
+    color: #ffff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner-sub-title{
+    font-size: 55px;
+    font-weight: 700;
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: cursive;
+    color: #ffff;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 20px 30px;
+    margin-bottom: 60px;
 }
